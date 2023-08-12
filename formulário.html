@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Formulário
+  </title>
+</head>
+<body>
+  <form>
+    <h1>Travel reservation form</h1>
+    <p>
+    <h3>* denotes mandotory</h3>
+    </p>
+    Full name*:<br><input type="text" name="nome_completo" required placeholder="FirstName LastName" />
+    <br>
+    Email address*:<br><input type="email" name="email" required placeholder="EMAIL_ADDRESS" />
+    <br>
+    Selecte your package*:<br><select name="selecione_seu_pacote">
+      <option type="text" value="Goa">Goa</option>
+      <option type="text" value="Andhra Pradesh">Andhra Pradesh</option>
+      <option type="text" value="Haryana">Haryana</option>
+      <option type="text" value="Assam">Assam</option>
+    </select>
+    <br>
+    Arrival date*:<br><input type="date" name="data" required placeholder="m/d/y" />
+    <br>
+    Number of persons*:<br><input type="number" min="1" max="9" name="numero_de_pessoas" required placeholder="UNKNOWN_TYPE"  />
+    <br>
+    What would you want to avail?*<br>
+    Boarding<input type="checkbox" name="alternativa" value="Boarding" />
+    <br>
+    Fooding<input type="checkbox" name="alternativa" value="Fooding" />
+    <br>
+    Sight seeing<input type="checkbox" name="alternativa" value="Sight seeing" />
+    <br>
+    Discout Coupon code:<br><input type="text" maxlength="6" name="cupom_de_desconto" placeholder="UNKNOWN_TYPE" />
+    <br>
+    Terms and conditions*<br>
+    <input type="radio" name="termos_e_condicoes" value="I agree" required />I agree
+    <input type="radio" name="termos_e_condicoes" value="I disagree required" required />I disagree
+    <br>
+    <input type="submit" value="Complete reservation" />
+  </form>
+</body>
+</html>
