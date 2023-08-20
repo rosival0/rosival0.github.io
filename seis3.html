@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: maroon;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Formulário de Pesquisa</h1>
+        <p>Deixe-nos saber como podemos melhorar o freeCodeCamp</p>
+        <p>Nome:&nbsp; <input type="text" required placeholder="Digite seu nome" id="txtNome"/></p>
+        <p>Email:&nbsp; <input type="email" required placeholder="Digite seu email" id="txtEmail"/></p>
+        <p>Idade:&nbsp; <input type="number" maxlength="2" placeholder="Digite sua idade" id="txtIdade"/></p>
+
+            Qual opção descreve melhor sua função atual?&nbsp; <select class="funcao"><option type="text">Estudante</option>
+        <option type="text">Professor</option>
+        
+    </select>
+    <p>Gostou do freeCodeCamp o suficiente<br>
+        para recomendar para um amigo? <input type="radio" name="opcao" required>Definitivamente
+        <input type="radio" value="Talvez" name="opcao" required>Talvez
+        <input type="radio" value="Não tenho certeza" name="opcao" required>Não tenho certeza
+    </p>
+    <p>
+        O que você mais gosta no freeCodeCamp? &nbsp; <select>
+            <option type="text">Selecione uma opção</option>
+        </select>
+    </p>
+    <p>
+        Coisas que devem ser melhoradas no futuro:&nbsp; 
+        <class alternativa>
+        <input type="checkbox" name="alternativa" value="Front-end Projects">Front-end Projects<br>
+        <input type="checkbox" name="alternativa" value="Back-emd Projects">Back-end Projects<br>
+        <input type="checkbox" name="alternativa" value="Data Visualization">Data Visualization
+        </class>
+    </p>
+    <p>
+        <input type="button" name="enviar" value="Guardar Formulário">
+    </p>
+    </form>
+</body>
+</html>
