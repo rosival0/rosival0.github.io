@@ -10,6 +10,8 @@ figure{
     margin-right: auto;
     padding: 0;
     border: 28px solid white;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
     height: 450px;
     width: 800px;
 }
