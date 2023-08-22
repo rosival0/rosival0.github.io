@@ -1,0 +1,35 @@
+form{
+    position:fixed;
+    left:550px;
+    height: 250px;
+}  
+
+.text-block {
+      height: 35px;
+      font-family: Georgia;
+      font-size: 14px;
+      color: slategray;
+}
+  
+.text-box {
+      height: 30px;
+      width: 75px;
+      font-size: 14px;
+      font-style: beige;
+}
+  
+.form-button {
+    position: relative;
+    bottom:165px;
+    left: 300px;
+    height: 35px;
+    width: 95px;
+    background-color: azure;
+    color: black;
+    border-color: aqua;
+    cursor: hand;
+}
+
+p{
+    text-align: center;
+}
