@@ -1,0 +1,93 @@
+.layout{
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px;
+}
+
+#one{
+    color: black;
+    background-color: teal;
+    width: 400px;
+    height: 98px;
+    border: 3px solid;
+    border-style: double;
+    border-color: greenyellow;
+    border-radius: 5px;
+    position: relative;
+    right: 1px;
+}
+
+#two{
+    color:black;
+    background-color: thistle;
+    height: 195px;
+    width: 475px;
+    border: 3px solid;
+    border-color: plum;
+    border-style: double;
+    border-radius: 5px;
+    position: relative;
+    left: 5px;
+    bottom: 0;
+}
+
+#three{
+    color:black;
+    background-color: aquamarine;
+    height: 290px;
+    width: 200px;
+    border: 3px solid;
+    border-color: skyblue;
+    border-style: double;
+    border-radius: 5px;
+}
+
+#four{
+    color:black;
+    background-color:sienna;
+    height: 90px;
+    width: 230px;
+    border: 3px solid;
+    border-color:darkred;
+    border-style: double;
+    border-radius: 5px;
+    position: relative;
+    left: 250px;
+    right: 200px;
+    top: 98px;
+}
+
+#five{
+    color:black;
+    background-color:dimgrey;
+    height: 90px;
+    width: 230px;
+    border: 3px solid;
+    border-color: slategray;
+    border-style: double;
+    border-radius: 5px;
+    position: relative;
+    left: 215px;
+    right: 200px;
+    top: 90px;
+}
+
+#six{
+    color:black;
+    background-color:darkslateblue;
+    height: 90px;
+    width: 230px;
+    border: 3px solid;
+    border-color: cornflowerblue;
+    border-style: double;
+    border-radius: 5px;
+    position: relative;
+    left: 250px;
+    right: 200px;
+    top: 90px;
+}
